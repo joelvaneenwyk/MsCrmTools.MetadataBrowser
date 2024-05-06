@@ -12,10 +12,10 @@ jobs:
 
     strategy:
       matrix:
-        ocnfig: [Debug, Release]
-        platform: [Any CPU]
+        config: ["Debug", "Release"]
+        platform: ["Any CPU"]
 
-    runs-on: windows-latest 
+    runs-on: windows-latest
 
     env:
       Solution_Name: MsCrmTools.MetadataBrowser.sln
