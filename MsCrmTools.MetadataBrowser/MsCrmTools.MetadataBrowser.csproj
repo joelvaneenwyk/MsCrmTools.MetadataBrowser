@@ -54,18 +54,18 @@
     <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
     <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.52" />
     <PackageReference Include="Microsoft.CrmSdk.Deployment" Version="9.0.2.34" />
-    <PackageReference Include="Microsoft.CrmSdk.Workflow" Version="9.0.2.42" />
-    <PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="9.1.1.1" />
-    <PackageReference Include="Microsoft.CrmSdk.XrmTooling.WpfControls" Version="9.1.1.1" />
+    <PackageReference Include="Microsoft.CrmSdk.Workflow" Version="9.0.2.52" />
+    <PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="9.1.1.45" />
+    <PackageReference Include="Microsoft.CrmSdk.XrmTooling.WpfControls" Version="9.1.1.45" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Microsoft.IdentityModel" Version="7.0.0" />
     <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="5.3.0" />
-    <PackageReference Include="Microsoft.NETCore.Platforms" Version="1.1.1" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.4" />
     <PackageReference Include="Microsoft.NETCore.Targets" Version="5.0.0" />
     <PackageReference Include="Microsoft.Rest.ClientRuntime" Version="2.3.24" />
-    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1343.22" />
-    <PackageReference Include="Microsoft.Web.Xdt" Version="3.0.0" />
-    <PackageReference Include="MscrmTools.Xrm.Connection" Version="1.2022.10.54" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2478.35" />
+    <PackageReference Include="Microsoft.Web.Xdt" Version="3.1.0" />
+    <PackageReference Include="MscrmTools.Xrm.Connection" Version="1.2023.6.56" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="NuGet.Common" Version="6.9.1" />
     <PackageReference Include="NuGet.Configuration" Version="6.9.1" />
@@ -93,10 +93,10 @@
     <PackageReference Include="System.Security.Cryptography.Primitives" Version="4.3.0" />
     <PackageReference Include="System.Security.Cryptography.X509Certificates" Version="4.3.2" />
     <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
-    <PackageReference Include="System.Text.Json" Version="7.0.3" />
+    <PackageReference Include="System.Text.Json" Version="8.0.3" />
     <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
-    <PackageReference Include="XrmToolBoxPackage" Version="1.2022.10.58" />
+    <PackageReference Include="XrmToolBoxPackage" Version="1.2023.10.67" />
   </ItemGroup>
   <ProjectExtensions>
     <VisualStudio>
