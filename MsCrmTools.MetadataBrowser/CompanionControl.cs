@@ -17,6 +17,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+using JetBrains.Annotations;
 using XrmToolBox.Extensibility;
 using XrmToolBox.Extensibility.Interfaces;
 
@@ -38,6 +39,7 @@ namespace MsCrmTools.MetadataBrowser
             tt.SetToolTip(btnRefresh, "Refresh metadata from connected environment. It might take a while");
         }
 
+        [PublicAPI]
         public event EventHandler<MessageBusEventArgs> OnOutgoingMessage;
 
         public RightOrLeft GetPosition()
