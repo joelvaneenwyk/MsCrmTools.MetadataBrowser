@@ -39,7 +39,7 @@ namespace MsCrmTools.MetadataBrowser
             tt.SetToolTip(btnRefresh, "Refresh metadata from connected environment. It might take a while");
         }
 
-        [PublicAPI]
+        [UsedImplicitly]
         public event EventHandler<MessageBusEventArgs> OnOutgoingMessage;
 
         public RightOrLeft GetPosition()
