@@ -167,7 +167,7 @@ namespace MsCrmTools.MetadataBrowser
                     {
                         value = prop.GetValue(o, null);
                     }
-                    catch (Exception error)
+                    catch (Exception)
                     {
                         //MessageBox.Show(error.ToString());
                     }
