@@ -42,7 +42,7 @@
 		</Compile>
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="EPPlus" Version="7.1.2" />
+		<PackageReference Include="EPPlus" Version="7.1.3" />
 		<PackageReference Include="ILMerge" Version="3.0.41" />
 		<PackageReference Include="JetBrains.Annotations" Version="2023.3.0" />
 		<PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
