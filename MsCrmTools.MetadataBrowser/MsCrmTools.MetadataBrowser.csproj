@@ -7,6 +7,7 @@
 		<UseWPF>true</UseWPF>
 		<ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
 		<Platforms>AnyCPU;x64;x86</Platforms>
+		<GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
 	</PropertyGroup>
 	<ItemGroup>
 		<Reference Include="System.Activities" />
@@ -23,6 +24,7 @@
 		<Reference Include="System.Threading.Tasks" />
 		<Reference Include="System.Web" />
 		<Reference Include="System.Web.Services" />
+		<Reference Include="System.Resources.Extensions" />
 		<Reference Include="System.Workflow.Activities" />
 		<Reference Include="System.Workflow.ComponentModel" />
 		<Reference Include="System.Workflow.Runtime" />
@@ -44,6 +46,7 @@
 	<ItemGroup>
 		<PackageReference Include="EPPlus" Version="7.1.2" />
 		<PackageReference Include="ILMerge" Version="3.0.41" />
+		<PackageReference Include="System.Resources.Extensions" Version="0.0.1" />
 		<PackageReference Include="JetBrains.Annotations" Version="2023.3.0" />
 		<PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
 		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
